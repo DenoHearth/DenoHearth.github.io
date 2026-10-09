@@ -31,7 +31,8 @@ ADDONS = [
          readme=REPOS / "ButtonDrawer" / "README.md", pictures=["ButtonDrawer-"], download="release"),
     dict(slug="deno-dots", folder="DenoDots", name="Deno Dots", kind="Combat",
          pitch="Your damage-over-time effects and buffs as small icons with timers, and a red mark on what is missing.",
-         logo=SRC / "_release" / "DenoDots-logo.png", curse=1732241, toc=SRC / "DenoDots" / "DenoDots.toc",
+         logo=SRC / "_release" / "DenoDots-logo.png", curse=None,   # project 1732241 is still under review on CurseForge; put the id back when approved
+          toc=SRC / "DenoDots" / "DenoDots.toc",
          readme=REPOS / "DenoDots" / "README.md", pictures=["DenoDots-1", "DenoDots-2", "DenoDots-3", "DenoDots-4-glow-small", "DenoDots-5"], download="release"),
     dict(slug="deno-nameplate", folder="DenoNameplate", name="Deno Nameplate", kind="Nameplates",
          pitch="Clean, compact nameplates with health text, cast bars and quest icons.",
@@ -39,7 +40,8 @@ ADDONS = [
          readme=REPOS / "DenoNameplate" / "README.md", pictures=["DenoNameplate-"], download="release"),
     dict(slug="raid-recruiter", folder="RaidRecruiter", name="Raid Recruiter", kind="Groups & raids",
          pitch="One window for building and running a raid: LFG feed, recruiting, roles, loot rolls.",
-         logo=SRC / "_release" / "RaidRecruiter-logo.png", curse=1733417, toc=SRC / "RaidRecruiter" / "RaidRecruiter.toc",
+         logo=SRC / "_release" / "RaidRecruiter-logo.png", curse=None,   # project 1733417 is still under review on CurseForge; put the id back when approved
+          toc=SRC / "RaidRecruiter" / "RaidRecruiter.toc",
          readme=REPOS / "RaidRecruiter" / "README.md", pictures=["RaidRecruiter-"], download="release"),
 ]
 
