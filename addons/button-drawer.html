@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Button Drawer - addon for WoW: Forever</title>
+<meta name="description" content="One minimap button that holds every addon&#x27;s minimap button and folds them out on click. Includes a Lua error button.">
+<meta property="og:title" content="Button Drawer - addon for WoW: Forever">
+<meta property="og:description" content="One minimap button that holds every addon&#x27;s minimap button and folds them out on click. Includes a Lua error button.">
+<meta property="og:image" content="https://denohearth.github.io/img/banner.jpg">
+<meta name="keywords" content="World of Warcraft Forever addons, WoW Forever addon, Classic Plus addons, 4K world map, HD minimap, nameplates, raid recruiting, DoT tracker, minimap button">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="icon" href="../img/favicon.png">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">Deno<span>Hearth</span></a>
+  <nav>
+    <a href="../index.html#addons">Addons</a>
+    <a href="https://github.com/DenoHearth">GitHub</a>
+  </nav>
+</header>
+
+<main class="addon">
+  
+  <section class="head">
+    <img class="logo" src="../img/button-drawer-logo.jpg" alt="" width="128" height="128">
+    <div>
+      <p class="kind">Minimap · WoW: Forever</p>
+      <h1>Button Drawer</h1>
+      <p class="lead">One minimap button that holds every addon&#x27;s minimap button and folds them out on click. Includes a Lua error button.</p>
+      <div class="buttons"><a class="btn primary" href="https://github.com/DenoHearth/ButtonDrawer/releases/latest">Download v1.1.0</a><a class="btn" href="https://www.curseforge.com/projects/1728651">CurseForge</a><a class="btn" href="https://github.com/DenoHearth/ButtonDrawer">Source on GitHub</a></div>
+    </div>
+  </section>
+  <p class="intro">Addon minimap buttons are taken off the minimap and parked in a drawer behind a single button. Click that button and they fold out in a grid; click it again and they fold back in. The drawer stays open until you close it.</p>
+  <section>
+    <h2>What it does</h2>
+    <ul class="features"><li><h3>One button instead of many</h3><p>Takes every addon button on the minimap: LibDBIcon buttons, buttons with the usual minimap-button names, and any other small clickable button an addon hangs on the minimap, whatever it is called. Blizzard&#x27;s own minimap controls and map pins are left alone. Opening the drawer looks again, so a button created late is picked up too.</p></li><li><h3>Buttons stay put</h3><p>When an addon tries to move its button back onto the minimap, Button Drawer puts it back in the drawer.</p></li><li><h3>Built-in Lua error button</h3><p>The first cell of the drawer is an error button: grey when there are no errors, red with a count when there are. The count also shows as a badge on the drawer button. Errors are deduplicated and kept in a window with copyable text (Select all / Clear / Close). It replaces the default error popup.</p></li><li><h3>Movable</h3><p>Drag the drawer button around the minimap; the position is saved.</p></li><li><h3>Manage window</h3><p>The Set cell in the drawer (or <code>/bd config</code>) lists every button with On, Up and Down, and sets icon size, columns and opening on mouse-over. No dragging needed.</p></li><li><h3>Opens the right way</h3><p>The drawer folds out away from the nearest screen edges.</p></li><li><h3>Standalone</h3><p>No libraries, no dependencies.</p></li></ul>
+  </section>
+  <section>
+    <h2>Pictures</h2>
+    <div class="gallery"><a class="shot" href="../img/ButtonDrawer-1-drawer-open.jpg"><img loading="lazy" src="../img/ButtonDrawer-1-drawer-open.jpg" width="740" height="520" alt="Button Drawer: Drawer open"><span>Drawer open</span></a><a class="shot" href="../img/ButtonDrawer-2-manage.jpg"><img loading="lazy" src="../img/ButtonDrawer-2-manage.jpg" width="920" height="940" alt="Button Drawer: Manage"><span>Manage</span></a></div>
+  </section>
+  <section>
+    <h2>Install</h2>
+    <ol class="steps"><li>Download the zip from the <a href="https://github.com/DenoHearth/ButtonDrawer/releases/latest">latest release</a>, or install it from CurseForge.</li><li>Extract the <code>ButtonDrawer</code> folder into <code>World of Warcraft\&lt;Forever folder&gt;\Interface\AddOns\</code>.</li><li>Restart the game.</li></ol>
+  </section>
+</main>
+
+<footer>
+  <p>Addons for World of Warcraft: Forever, made by Deniz. Free, open source, MIT licence for the code.</p>
+  <p class="small">World of Warcraft and its art belong to Blizzard Entertainment. This site is not affiliated with Blizzard.</p>
+</footer>
+</body>
+</html>
