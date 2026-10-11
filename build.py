@@ -25,11 +25,6 @@ ADDONS = [
          readme=REPOS / "DenoMap" / "README.md", banner=REPOS / "DenoMap" / "docs" / "banner.jpg",
          pictures=["DenoMap-2-", "DenoMap-5-", "DenoMap-1-", "DenoMap-4-", "DenoMap-11-", "DenoMap-10-", "DenoMap-14-", "DenoMap-13-"],
          download="zip", size="about 6.4 GB"),
-    dict(slug="deno-square-minimap", folder="DenoSquareMinimap", name="Deno Square Minimap", kind="Minimap",
-         pitch="The minimap as a square, with a thin border instead of the round frame.",
-         logo=SRC / "_release" / "DenoSquareMinimap-logo.jpg", curse=None,   # no CurseForge project yet
-         toc=SRC / "DenoSquareMinimap" / "DenoSquareMinimap.toc",
-         readme=REPOS / "DenoSquareMinimap" / "README.md", pictures=["DenoSquareMinimap-"], download="release"),
     dict(slug="button-drawer", folder="ButtonDrawer", name="Button Drawer", kind="Minimap",
          pitch="One minimap button that holds all the others, with a Lua error button built in.",
          logo=SRC / "_release" / "ButtonDrawer-logo.png", curse=1728651, toc=SRC / "ButtonDrawer" / "ButtonDrawer.toc",
