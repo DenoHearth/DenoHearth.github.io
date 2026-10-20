@@ -43,6 +43,11 @@ ADDONS = [
          logo=SRC / "_release" / "RaidRecruiter-logo.png", curse=None,   # project 1733417 is still under review on CurseForge; put the id back when approved
           toc=SRC / "RaidRecruiter" / "RaidRecruiter.toc",
          readme=REPOS / "RaidRecruiter" / "README.md", pictures=["RaidRecruiter-"], download="release"),
+    dict(slug="deno-wardrobe", folder="DenoWardrobe", name="Deno Wardrobe", kind="Transmogrification",
+         pitch="Every look on your own character: try on, filter by armour or weapon type, save outfits.",
+         logo=SRC / "_release" / "DenoWardrobe-logo.jpg", curse=None,   # project 1755548 is under review on CurseForge; put the id back when approved
+          toc=SRC / "DenoWardrobe" / "DenoWardrobe.toc",
+         readme=REPOS / "DenoWardrobe" / "README.md", pictures=["DenoWardrobe-"], download="release"),
 ]
 
 e = html.escape
