@@ -48,6 +48,11 @@ ADDONS = [
          logo=SRC / "_release" / "DenoWardrobe-logo.jpg", curse=None,   # project 1755548 is under review on CurseForge; put the id back when approved
           toc=SRC / "DenoWardrobe" / "DenoWardrobe.toc",
          readme=REPOS / "DenoWardrobe" / "README.md", pictures=["DenoWardrobe-"], download="release"),
+    dict(slug="deno-retail-frames", folder="DenoRetailFrames", name="Deno Retail Frames", kind="Unit frames",
+         pitch="The retail layout on the game's own player, target and focus frames, with white absorb shields.",
+         logo=SRC / "_release" / "DenoRetailFrames-logo.jpg", curse=None,   # project 1758061 is under review on CurseForge; put the id back when approved
+          toc=SRC / "DenoRetailFrames" / "DenoRetailFrames.toc",
+         readme=REPOS / "DenoRetailFrames" / "README.md", pictures=["DenoRetailFrames-"], download="release"),
 ]
 
 e = html.escape
